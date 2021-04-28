@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>00</key>
+	<integer>22</integer>
+	<key>01</key>
+	<integer>33</integer>
+	<key>02</key>
+	<integer>44</integer>
+	<key>10</key>
+	<integer>55</integer>
+	<key>11</key>
+	<integer>66</integer>
+	<key>12</key>
+	<integer>77</integer>
+</dict>
+</plist>
