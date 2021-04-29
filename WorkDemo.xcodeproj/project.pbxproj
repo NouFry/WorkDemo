@@ -10,17 +10,20 @@
 		BD7390A91AB2CEBC0043F36B /* subSvc.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD7390A81AB2CEBC0043F36B /* subSvc.plist */; };
 		BD7390AD1AB2CF470043F36B /* ModelSubSvc.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7390AC1AB2CF470043F36B /* ModelSubSvc.m */; };
 		BD7390AF1AB2D4E50043F36B /* tableCellHeight.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD7390AE1AB2D4E50043F36B /* tableCellHeight.plist */; };
+		BDCA81101AB41AF6009DEDC4 /* ViewDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCA810F1AB41AF6009DEDC4 /* ViewDemo.m */; };
+		BDCA81151AB41F66009DEDC4 /* Demo1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCA81141AB41F66009DEDC4 /* Demo1ViewController.m */; };
+		BDCA81201AB41F8A009DEDC4 /* ModelWeak.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCA81161AB41F8A009DEDC4 /* ModelWeak.m */; };
+		BDCA81211AB41F8A009DEDC4 /* ModelStrong.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCA81181AB41F8A009DEDC4 /* ModelStrong.m */; };
+		BDCA81221AB41F8A009DEDC4 /* ModelSanYueShiEr.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCA811A1AB41F8A009DEDC4 /* ModelSanYueShiEr.m */; };
+		BDCA81231AB41F8A009DEDC4 /* ModelDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCA811C1AB41F8A009DEDC4 /* ModelDemo.m */; };
+		BDCA81241AB41F8A009DEDC4 /* ModelDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCA811E1AB41F8A009DEDC4 /* ModelDelegate.m */; };
+		BDCA81271AB41FA7009DEDC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCA81251AB41FA7009DEDC4 /* ViewController.m */; };
 		BDCF63141AAFD2800028E30D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCF63131AAFD2800028E30D /* main.m */; };
 		BDCF63171AAFD2800028E30D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCF63161AAFD2800028E30D /* AppDelegate.m */; };
-		BDCF631A1AAFD2800028E30D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCF63191AAFD2800028E30D /* ViewController.m */; };
 		BDCF631D1AAFD2800028E30D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDCF631B1AAFD2800028E30D /* Main.storyboard */; };
 		BDCF631F1AAFD2800028E30D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDCF631E1AAFD2800028E30D /* Images.xcassets */; };
 		BDCF63221AAFD2800028E30D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDCF63201AAFD2800028E30D /* LaunchScreen.xib */; };
 		BDCF632E1AAFD2800028E30D /* WorkDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCF632D1AAFD2800028E30D /* WorkDemoTests.m */; };
-		BDCF63391AAFD3080028E30D /* ModelDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCF63381AAFD3080028E30D /* ModelDemo.m */; };
-		BDCF633D1AAFD5870028E30D /* ModelStrong.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCF633C1AAFD5870028E30D /* ModelStrong.m */; };
-		BDCF63401AAFD5930028E30D /* ModelWeak.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCF633F1AAFD5930028E30D /* ModelWeak.m */; };
-		BDCF63431AAFE5790028E30D /* ModelDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCF63421AAFE5790028E30D /* ModelDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,27 +41,33 @@
 		BD7390AB1AB2CF470043F36B /* ModelSubSvc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelSubSvc.h; path = model/ModelSubSvc.h; sourceTree = "<group>"; };
 		BD7390AC1AB2CF470043F36B /* ModelSubSvc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModelSubSvc.m; path = model/ModelSubSvc.m; sourceTree = "<group>"; };
 		BD7390AE1AB2D4E50043F36B /* tableCellHeight.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tableCellHeight.plist; sourceTree = "<group>"; };
+		BDCA810E1AB41AF6009DEDC4 /* ViewDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewDemo.h; path = view/ViewDemo.h; sourceTree = "<group>"; };
+		BDCA810F1AB41AF6009DEDC4 /* ViewDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewDemo.m; path = view/ViewDemo.m; sourceTree = "<group>"; };
+		BDCA81131AB41F66009DEDC4 /* Demo1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Demo1ViewController.h; path = ViewController/Demo1ViewController.h; sourceTree = "<group>"; };
+		BDCA81141AB41F66009DEDC4 /* Demo1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Demo1ViewController.m; path = ViewController/Demo1ViewController.m; sourceTree = "<group>"; };
+		BDCA81161AB41F8A009DEDC4 /* ModelWeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModelWeak.m; path = model/ModelWeak.m; sourceTree = "<group>"; };
+		BDCA81171AB41F8A009DEDC4 /* ModelWeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelWeak.h; path = model/ModelWeak.h; sourceTree = "<group>"; };
+		BDCA81181AB41F8A009DEDC4 /* ModelStrong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModelStrong.m; path = model/ModelStrong.m; sourceTree = "<group>"; };
+		BDCA81191AB41F8A009DEDC4 /* ModelStrong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelStrong.h; path = model/ModelStrong.h; sourceTree = "<group>"; };
+		BDCA811A1AB41F8A009DEDC4 /* ModelSanYueShiEr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModelSanYueShiEr.m; path = model/ModelSanYueShiEr.m; sourceTree = "<group>"; };
+		BDCA811B1AB41F8A009DEDC4 /* ModelSanYueShiEr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelSanYueShiEr.h; path = model/ModelSanYueShiEr.h; sourceTree = "<group>"; };
+		BDCA811C1AB41F8A009DEDC4 /* ModelDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModelDemo.m; path = model/ModelDemo.m; sourceTree = "<group>"; };
+		BDCA811D1AB41F8A009DEDC4 /* ModelDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelDemo.h; path = model/ModelDemo.h; sourceTree = "<group>"; };
+		BDCA811E1AB41F8A009DEDC4 /* ModelDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModelDelegate.m; path = model/ModelDelegate.m; sourceTree = "<group>"; };
+		BDCA811F1AB41F8A009DEDC4 /* ModelDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelDelegate.h; path = model/ModelDelegate.h; sourceTree = "<group>"; };
+		BDCA81251AB41FA7009DEDC4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ViewController/ViewController.m; sourceTree = "<group>"; };
+		BDCA81261AB41FA7009DEDC4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ViewController/ViewController.h; sourceTree = "<group>"; };
 		BDCF630E1AAFD2800028E30D /* WorkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDCF63121AAFD2800028E30D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDCF63131AAFD2800028E30D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BDCF63151AAFD2800028E30D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BDCF63161AAFD2800028E30D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BDCF63181AAFD2800028E30D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BDCF63191AAFD2800028E30D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BDCF631C1AAFD2800028E30D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BDCF631E1AAFD2800028E30D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BDCF63211AAFD2800028E30D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BDCF63271AAFD2800028E30D /* WorkDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDCF632C1AAFD2800028E30D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDCF632D1AAFD2800028E30D /* WorkDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorkDemoTests.m; sourceTree = "<group>"; };
-		BDCF63371AAFD3080028E30D /* ModelDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelDemo.h; sourceTree = "<group>"; };
-		BDCF63381AAFD3080028E30D /* ModelDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelDemo.m; sourceTree = "<group>"; };
-		BDCF633B1AAFD5870028E30D /* ModelStrong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelStrong.h; sourceTree = "<group>"; };
-		BDCF633C1AAFD5870028E30D /* ModelStrong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelStrong.m; sourceTree = "<group>"; };
-		BDCF633E1AAFD5930028E30D /* ModelWeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelWeak.h; sourceTree = "<group>"; };
-		BDCF633F1AAFD5930028E30D /* ModelWeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelWeak.m; sourceTree = "<group>"; };
-		BDCF63411AAFE5790028E30D /* ModelDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelDelegate.h; sourceTree = "<group>"; };
-		BDCF63421AAFE5790028E30D /* ModelDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelDelegate.m; sourceTree = "<group>"; };
 		BDCF63441AAFE5AC0028E30D /* DemoProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,6 +98,26 @@
 			name = config;
 			sourceTree = "<group>";
 		};
+		BDCA81111AB41AFD009DEDC4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BDCA810E1AB41AF6009DEDC4 /* ViewDemo.h */,
+				BDCA810F1AB41AF6009DEDC4 /* ViewDemo.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BDCA81121AB41F24009DEDC4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BDCA81131AB41F66009DEDC4 /* Demo1ViewController.h */,
+				BDCA81141AB41F66009DEDC4 /* Demo1ViewController.m */,
+				BDCA81261AB41FA7009DEDC4 /* ViewController.h */,
+				BDCA81251AB41FA7009DEDC4 /* ViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
 		BDCF63051AAFD2800028E30D = {
 			isa = PBXGroup;
 			children = (
@@ -110,12 +139,12 @@
 		BDCF63101AAFD2800028E30D /* WorkDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BDCA81111AB41AFD009DEDC4 /* View */,
 				BD7390AA1AB2CEC50043F36B /* config */,
 				BDCF633A1AAFD3110028E30D /* Model */,
-				BDCF63151AAFD2800028E30D /* AppDelegate.h */,
 				BDCF63161AAFD2800028E30D /* AppDelegate.m */,
-				BDCF63181AAFD2800028E30D /* ViewController.h */,
-				BDCF63191AAFD2800028E30D /* ViewController.m */,
+				BDCF63151AAFD2800028E30D /* AppDelegate.h */,
+				BDCA81121AB41F24009DEDC4 /* ViewController */,
 				BDCF631B1AAFD2800028E30D /* Main.storyboard */,
 				BDCF631E1AAFD2800028E30D /* Images.xcassets */,
 				BDCF63201AAFD2800028E30D /* LaunchScreen.xib */,
@@ -153,17 +182,19 @@
 		BDCF633A1AAFD3110028E30D /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				BDCF633B1AAFD5870028E30D /* ModelStrong.h */,
-				BDCF633C1AAFD5870028E30D /* ModelStrong.m */,
-				BDCF633E1AAFD5930028E30D /* ModelWeak.h */,
-				BDCF633F1AAFD5930028E30D /* ModelWeak.m */,
-				BDCF63371AAFD3080028E30D /* ModelDemo.h */,
-				BDCF63381AAFD3080028E30D /* ModelDemo.m */,
-				BDCF63411AAFE5790028E30D /* ModelDelegate.h */,
-				BDCF63421AAFE5790028E30D /* ModelDelegate.m */,
 				BDCF63441AAFE5AC0028E30D /* DemoProtocol.h */,
+				BDCA811F1AB41F8A009DEDC4 /* ModelDelegate.h */,
+				BDCA811E1AB41F8A009DEDC4 /* ModelDelegate.m */,
+				BDCA811D1AB41F8A009DEDC4 /* ModelDemo.h */,
+				BDCA811C1AB41F8A009DEDC4 /* ModelDemo.m */,
+				BDCA811B1AB41F8A009DEDC4 /* ModelSanYueShiEr.h */,
+				BDCA811A1AB41F8A009DEDC4 /* ModelSanYueShiEr.m */,
+				BDCA81191AB41F8A009DEDC4 /* ModelStrong.h */,
+				BDCA81181AB41F8A009DEDC4 /* ModelStrong.m */,
 				BD7390AB1AB2CF470043F36B /* ModelSubSvc.h */,
 				BD7390AC1AB2CF470043F36B /* ModelSubSvc.m */,
+				BDCA81171AB41F8A009DEDC4 /* ModelWeak.h */,
+				BDCA81161AB41F8A009DEDC4 /* ModelWeak.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -270,13 +301,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDCF63431AAFE5790028E30D /* ModelDelegate.m in Sources */,
-				BDCF63391AAFD3080028E30D /* ModelDemo.m in Sources */,
-				BDCF631A1AAFD2800028E30D /* ViewController.m in Sources */,
+				BDCA81231AB41F8A009DEDC4 /* ModelDemo.m in Sources */,
+				BDCA81241AB41F8A009DEDC4 /* ModelDelegate.m in Sources */,
+				BDCA81221AB41F8A009DEDC4 /* ModelSanYueShiEr.m in Sources */,
+				BDCA81101AB41AF6009DEDC4 /* ViewDemo.m in Sources */,
+				BDCA81201AB41F8A009DEDC4 /* ModelWeak.m in Sources */,
+				BDCA81271AB41FA7009DEDC4 /* ViewController.m in Sources */,
 				BDCF63171AAFD2800028E30D /* AppDelegate.m in Sources */,
-				BDCF63401AAFD5930028E30D /* ModelWeak.m in Sources */,
-				BDCF633D1AAFD5870028E30D /* ModelStrong.m in Sources */,
+				BDCA81151AB41F66009DEDC4 /* Demo1ViewController.m in Sources */,
 				BDCF63141AAFD2800028E30D /* main.m in Sources */,
+				BDCA81211AB41F8A009DEDC4 /* ModelStrong.m in Sources */,
 				BD7390AD1AB2CF470043F36B /* ModelSubSvc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

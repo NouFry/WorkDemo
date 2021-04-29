@@ -84,6 +84,36 @@
     
     NSString *lastYearString = @"2014-03-14 11:47:12";
     NSDate *lastYearDate = [formatter dateFromString:lastYearString];
+    NSString *subString1 = @"Hello,";
+    NSString *subString2 = @"World!";
+    NSMutableString *mString = [NSMutableString string];
+    [mString appendString:subString1];
+    [mString appendString:subString2];
+    [mString appendFormat:@"%@ %@",subString1,subString2];
+//    1
+    NSString *string1 = [subString1 stringByAppendingString:subString2];
+    NSString *string2 = [NSString stringWithFormat:@"%@ %@",subString1,subString2];
+    
+    BOOL isContains= [subString1  containsString:@"ll"];
+    NSLog(@"isContains->%d",isContains);
+    
+    NSString *intString = @"1";
+    NSString *floatString = @"2.2";
+    NSString *twobString = @"2b3";
+    NSString *sbString = @"sb";
+    NSLog(@"%d",[intString intValue]);//1
+    NSLog(@"%d",[floatString intValue]);//2
+    NSLog(@"%f",[intString floatValue]);//1.0
+    NSLog(@"%f",[floatString floatValue]);//2.2
+    
+    NSLog(@"%d",[twobString intValue]);//1->报错.2->0.3->2
+    NSLog(@"%d",[sbString intValue]);//报错
+    
+    CGRect frame = CGRectMake(0, 0, 100, 100);
+    frame.origin = CGPointMake(1, 1);
+    frame.size = CGSizeMake(200, 200);
+    
+    
     
 }
 - (void)askDelegateToAnswer:(id)question {

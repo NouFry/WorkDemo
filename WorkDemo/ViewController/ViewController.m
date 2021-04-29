@@ -12,6 +12,8 @@
 #import "ModelStrong.h"
 #import "ModelDelegate.h"
 #import "ModelSubSvc.h"
+#import "ViewDemo.h"
+#import <QuartzCore/QuartzCore.h>
 
 //private
 @interface ViewController ()<UITextFieldDelegate,UITableViewDataSource,UITableViewDelegate>
@@ -90,6 +92,18 @@
     ModelDemo *demo2 = [[ModelDemo alloc] init];
     [demo2 demo];
     
+    
+//    [self addDemoView];
+    
+}
+
+
+- (void)addDemoView {
+    
+    ViewDemo *demo = [[ViewDemo alloc] initWithFrame:CGRectMake(20, 22, 100, 100)];
+    demo.backgroundColor = [UIColor clearColor];
+    
+    [self.view addSubview:demo];
     
 }
 //-(BOOL)textFieldShouldBeginEditing:(UITextField *)textField {
