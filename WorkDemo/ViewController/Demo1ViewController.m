@@ -8,7 +8,9 @@
 
 #import "Demo1ViewController.h"
 
-@interface Demo1ViewController ()
+@interface Demo1ViewController ()<UITextFieldDelegate>
+- (IBAction)alertInfo:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UITextField *textField;
 
 @end
 
@@ -25,6 +27,21 @@
     // Do any additional setup after loading the view.
 }
 
+//触摸空白,弹出或者收起键盘
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+//    收键盘
+    [self.textField resignFirstResponder];
+//    弹出键盘
+//    [self.textField becomeFirstResponder];
+}
+
+-(BOOL)textFieldShouldReturn:(UITextField *)textField {
+    [textField resignFirstResponder];
+    return YES;
+}
+-(void)textFieldDidEndEditing:(UITextField *)textField {
+    NSLog(@"textFieldDidEndEditing");
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -40,4 +57,8 @@
 }
 */
 
+- (IBAction)alertInfo:(UIButton *)sender {
+    NSString *title = [sender titleForState:UIControlStateNormal];
+    NSLog(@"%@",title);
+}
 @end
