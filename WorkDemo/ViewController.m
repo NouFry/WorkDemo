@@ -86,7 +86,9 @@
     _sthText.delegate = self;
     _sthText.returnKeyType = UIReturnKeyGo;
     
-    
+//    add by ungacy @ 2015.3.14
+    ModelDemo *demo2 = [[ModelDemo alloc] init];
+    [demo2 demo];
     
     
 }
