@@ -8,7 +8,7 @@
 
 #import "PlistToViewViewController.h"
 
-@interface PlistToViewViewController ()
+@interface PlistToViewViewController ()<UIAlertViewDelegate>
 @property (nonatomic ,strong) NSArray *configArray;
 @end
 
@@ -92,7 +92,19 @@
 }
 
 - (void)press:(UIButton *)sender {
-    NSLog(@"%@",[sender titleForState:UIControlStateNormal]);
+    NSString *title  =[sender titleForState:UIControlStateNormal];
+    
+    UIAlertView *av = [[UIAlertView alloc] initWithTitle:@"中国电信" message:title delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"OK", nil];
+    [av show];
+}
+
+-(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
+    NSLog(@"%d",buttonIndex);
+    if (buttonIndex == alertView.firstOtherButtonIndex) {
+        NSLog(@"OK");
+    } else {
+        NSLog(@"Cancel");
+    }
 }
 
 - (void)didReceiveMemoryWarning {
