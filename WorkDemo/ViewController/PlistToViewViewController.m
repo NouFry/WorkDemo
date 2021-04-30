@@ -25,6 +25,20 @@
     [self generateViewFromArray];
     // Do any additional setup after loading the view.
 }
+//r,g,b,a
+//255,0,0,1
+
+
+- (UIColor *)colorFromString:(NSString *)string {
+    NSArray *array = [string componentsSeparatedByString:@","];
+    if ([array count] == 4) {
+        return [UIColor colorWithRed:[array[0] floatValue]
+                               green:[array[1] floatValue]
+                                blue:[array[2] floatValue]
+                               alpha:[array[3] floatValue]];
+    }
+    return nil;
+}
 
 - (void)generateViewFromArray {
 //    每行
