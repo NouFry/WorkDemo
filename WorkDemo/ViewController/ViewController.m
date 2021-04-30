@@ -92,6 +92,21 @@
     ModelDemo *demo2 = [[ModelDemo alloc] init];
     [demo2 demo];
     
+//    frame
+    CGRect frame = CGRectFromString(@"{{336,426},{100,31}}");
+//    className
+    UIView *view = [[NSClassFromString(@"") alloc] initWithFrame:frame];
+    
+    UIButton *button = (UIButton *)view;
+    UIColor *someColor = nil;
+    if ([@"" isEqualToString:@"black"]) {
+        someColor = [UIColor blackColor];
+    }
+//    someColor
+    
+    [button addTarget:self action:NSSelectorFromString(@"") forControlEvents:UIControlEventTouchUpInside];
+    
+    
     
 //    [self addDemoView];
     
