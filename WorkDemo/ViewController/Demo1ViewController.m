@@ -22,11 +22,15 @@
     [super viewDidLoad];
     
     
-    
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
+    [button addTarget:self action:@selector(press:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
     
     // Do any additional setup after loading the view.
 }
-
+- (void)press:(UIButton *)sender {
+    
+}
 //触摸空白,弹出或者收起键盘
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
 //    收键盘

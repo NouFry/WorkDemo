@@ -80,10 +80,11 @@
     NSString *dateString = [formatter stringFromDate:self.date];
     NSLog(@"dateString:%@",dateString);
     
-#warning    获取今天下午17:30的字符串
+//#warning    获取今天下午17:30的字符串
     
     NSString *lastYearString = @"2014-03-14 11:47:12";
     NSDate *lastYearDate = [formatter dateFromString:lastYearString];
+    NSLog(@"lastYearDate->%@",lastYearDate);
     NSString *subString1 = @"Hello,";
     NSString *subString2 = @"World!";
     NSMutableString *mString = [NSMutableString string];
@@ -93,7 +94,8 @@
 //    1
     NSString *string1 = [subString1 stringByAppendingString:subString2];
     NSString *string2 = [NSString stringWithFormat:@"%@ %@",subString1,subString2];
-    
+    NSLog(@"string1->%@",string1);
+    NSLog(@"string2->%@",string2);
     BOOL isContains= [subString1  containsString:@"ll"];
     NSLog(@"isContains->%d",isContains);
     
