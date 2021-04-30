@@ -10,6 +10,8 @@
 		BD7390A91AB2CEBC0043F36B /* subSvc.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD7390A81AB2CEBC0043F36B /* subSvc.plist */; };
 		BD7390AD1AB2CF470043F36B /* ModelSubSvc.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7390AC1AB2CF470043F36B /* ModelSubSvc.m */; };
 		BD7390AF1AB2D4E50043F36B /* tableCellHeight.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD7390AE1AB2D4E50043F36B /* tableCellHeight.plist */; };
+		BD97E07D1AB5353900F2F70A /* google.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD97E07C1AB5353900F2F70A /* google.plist */; };
+		BD97E0801AB5387C00F2F70A /* PlistToViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD97E07F1AB5387C00F2F70A /* PlistToViewViewController.m */; };
 		BDCA81101AB41AF6009DEDC4 /* ViewDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCA810F1AB41AF6009DEDC4 /* ViewDemo.m */; };
 		BDCA81151AB41F66009DEDC4 /* Demo1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCA81141AB41F66009DEDC4 /* Demo1ViewController.m */; };
 		BDCA81201AB41F8A009DEDC4 /* ModelWeak.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCA81161AB41F8A009DEDC4 /* ModelWeak.m */; };
@@ -41,6 +43,9 @@
 		BD7390AB1AB2CF470043F36B /* ModelSubSvc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelSubSvc.h; path = model/ModelSubSvc.h; sourceTree = "<group>"; };
 		BD7390AC1AB2CF470043F36B /* ModelSubSvc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModelSubSvc.m; path = model/ModelSubSvc.m; sourceTree = "<group>"; };
 		BD7390AE1AB2D4E50043F36B /* tableCellHeight.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tableCellHeight.plist; sourceTree = "<group>"; };
+		BD97E07C1AB5353900F2F70A /* google.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = google.plist; path = config/google.plist; sourceTree = "<group>"; };
+		BD97E07E1AB5387C00F2F70A /* PlistToViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlistToViewViewController.h; path = ViewController/PlistToViewViewController.h; sourceTree = "<group>"; };
+		BD97E07F1AB5387C00F2F70A /* PlistToViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlistToViewViewController.m; path = ViewController/PlistToViewViewController.m; sourceTree = "<group>"; };
 		BDCA810E1AB41AF6009DEDC4 /* ViewDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewDemo.h; path = view/ViewDemo.h; sourceTree = "<group>"; };
 		BDCA810F1AB41AF6009DEDC4 /* ViewDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewDemo.m; path = view/ViewDemo.m; sourceTree = "<group>"; };
 		BDCA81131AB41F66009DEDC4 /* Demo1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Demo1ViewController.h; path = ViewController/Demo1ViewController.h; sourceTree = "<group>"; };
@@ -93,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				BD7390A81AB2CEBC0043F36B /* subSvc.plist */,
+				BD97E07C1AB5353900F2F70A /* google.plist */,
 				BD7390AE1AB2D4E50043F36B /* tableCellHeight.plist */,
 			);
 			name = config;
@@ -110,6 +116,8 @@
 		BDCA81121AB41F24009DEDC4 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				BD97E07E1AB5387C00F2F70A /* PlistToViewViewController.h */,
+				BD97E07F1AB5387C00F2F70A /* PlistToViewViewController.m */,
 				BDCA81131AB41F66009DEDC4 /* Demo1ViewController.h */,
 				BDCA81141AB41F66009DEDC4 /* Demo1ViewController.m */,
 				BDCA81261AB41FA7009DEDC4 /* ViewController.h */,
@@ -280,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD7390AF1AB2D4E50043F36B /* tableCellHeight.plist in Resources */,
+				BD97E07D1AB5353900F2F70A /* google.plist in Resources */,
 				BD7390A91AB2CEBC0043F36B /* subSvc.plist in Resources */,
 				BDCF631D1AAFD2800028E30D /* Main.storyboard in Resources */,
 				BDCF63221AAFD2800028E30D /* LaunchScreen.xib in Resources */,
@@ -304,6 +313,7 @@
 				BDCA81231AB41F8A009DEDC4 /* ModelDemo.m in Sources */,
 				BDCA81241AB41F8A009DEDC4 /* ModelDelegate.m in Sources */,
 				BDCA81221AB41F8A009DEDC4 /* ModelSanYueShiEr.m in Sources */,
+				BD97E0801AB5387C00F2F70A /* PlistToViewViewController.m in Sources */,
 				BDCA81101AB41AF6009DEDC4 /* ViewDemo.m in Sources */,
 				BDCA81201AB41F8A009DEDC4 /* ModelWeak.m in Sources */,
 				BDCA81271AB41FA7009DEDC4 /* ViewController.m in Sources */,

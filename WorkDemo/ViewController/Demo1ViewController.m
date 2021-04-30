@@ -22,9 +22,10 @@
     [super viewDidLoad];
     
     
-    UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
-    [button addTarget:self action:@selector(press:) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:button];
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(0, 0, 100, 200);
+    button.titleLabel.text  = @"HEllO";
+    button.titleLabel.textColor = [UIColor redColor];
     
     // Do any additional setup after loading the view.
 }
