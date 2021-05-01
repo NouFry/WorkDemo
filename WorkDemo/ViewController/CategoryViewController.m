@@ -8,7 +8,7 @@
 
 #import "CategoryViewController.h"
 #import "NSString+Revert.h"
-
+#import "ModelKVC.h"
 @interface CategoryViewController ()<UITextFieldDelegate>
 
 @end
@@ -38,6 +38,10 @@
     return YES;
 }
 
+-(void)viewWillAppear:(BOOL)animated {
+    
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -47,5 +51,31 @@
 //    NSString *newString   ->XXXX
     NSString *revertString  = [str revert];
     NSLog(@"%@",revertString);
+    
+    
+    
+    
+//    KVC
+    ModelKVC *kvcDemo = [[ModelKVC alloc] init];
+    
+    NSString *string = kvcDemo.string;
+    NSString *theSameString = [kvcDemo valueForKey:@"string"];
+    if ([string isEqualToString:theSameString]) {
+        NSLog(@"valueForKey:string  == self.string");
+    }
+    
+    kvcDemo.string = @"set String";
+    NSLog(@"%@",kvcDemo.string);
+    [kvcDemo setValue:@"setValue:forKey:" forKey:@"string"];
+    NSLog(@"%@",kvcDemo.string);
+    
+    [kvcDemo setValue:@"setValue:forKey:" forKey:@"keyNotExist"];
+    
+    
+//    kvcDemo.sub.string  ==
+    NSString *subString = [kvcDemo valueForKeyPath:@"sub.string"];
+    NSLog(@"%@",subString);
+    
+    
 }
 @end

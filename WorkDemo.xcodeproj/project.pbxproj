@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BD32008C1AB66AA3004D75FA /* NSString+Revert.m in Sources */ = {isa = PBXBuildFile; fileRef = BD32008B1AB66AA3004D75FA /* NSString+Revert.m */; };
 		BD3200901AB66B71004D75FA /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD32008F1AB66B71004D75FA /* CategoryViewController.m */; };
+		BD3200931AB675E5004D75FA /* ModelKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3200921AB675E5004D75FA /* ModelKVC.m */; };
 		BD7390A91AB2CEBC0043F36B /* subSvc.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD7390A81AB2CEBC0043F36B /* subSvc.plist */; };
 		BD7390AD1AB2CF470043F36B /* ModelSubSvc.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7390AC1AB2CF470043F36B /* ModelSubSvc.m */; };
 		BD7390AF1AB2D4E50043F36B /* tableCellHeight.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD7390AE1AB2D4E50043F36B /* tableCellHeight.plist */; };
@@ -45,6 +46,8 @@
 		BD32008B1AB66AA3004D75FA /* NSString+Revert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Revert.m"; path = "category/NSString+Revert.m"; sourceTree = "<group>"; };
 		BD32008E1AB66B71004D75FA /* CategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CategoryViewController.h; path = ViewController/CategoryViewController.h; sourceTree = "<group>"; };
 		BD32008F1AB66B71004D75FA /* CategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CategoryViewController.m; path = ViewController/CategoryViewController.m; sourceTree = "<group>"; };
+		BD3200911AB675E5004D75FA /* ModelKVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelKVC.h; path = model/ModelKVC.h; sourceTree = "<group>"; };
+		BD3200921AB675E5004D75FA /* ModelKVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModelKVC.m; path = model/ModelKVC.m; sourceTree = "<group>"; };
 		BD7390A81AB2CEBC0043F36B /* subSvc.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = subSvc.plist; path = config/subSvc.plist; sourceTree = "<group>"; };
 		BD7390AB1AB2CF470043F36B /* ModelSubSvc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelSubSvc.h; path = model/ModelSubSvc.h; sourceTree = "<group>"; };
 		BD7390AC1AB2CF470043F36B /* ModelSubSvc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModelSubSvc.m; path = model/ModelSubSvc.m; sourceTree = "<group>"; };
@@ -221,6 +224,8 @@
 				BD7390AC1AB2CF470043F36B /* ModelSubSvc.m */,
 				BDCA81171AB41F8A009DEDC4 /* ModelWeak.h */,
 				BDCA81161AB41F8A009DEDC4 /* ModelWeak.m */,
+				BD3200911AB675E5004D75FA /* ModelKVC.h */,
+				BD3200921AB675E5004D75FA /* ModelKVC.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -334,6 +339,7 @@
 				BD97E0801AB5387C00F2F70A /* PlistToViewViewController.m in Sources */,
 				BD3200901AB66B71004D75FA /* CategoryViewController.m in Sources */,
 				BD32008C1AB66AA3004D75FA /* NSString+Revert.m in Sources */,
+				BD3200931AB675E5004D75FA /* ModelKVC.m in Sources */,
 				BDCA81101AB41AF6009DEDC4 /* ViewDemo.m in Sources */,
 				BDCA81201AB41F8A009DEDC4 /* ModelWeak.m in Sources */,
 				BDCA81271AB41FA7009DEDC4 /* ViewController.m in Sources */,
