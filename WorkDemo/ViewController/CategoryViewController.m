@@ -86,6 +86,8 @@
     [kvcDemo setValue:@"setValue:forKey:" forKey:@"string"];
     NSLog(@"%@",kvcDemo.string);
     
+    kvcDemo.array = @[];
+    
     [kvcDemo setValue:@"setValue:forKey:" forKey:@"keyNotExist"];
     
     
