@@ -38,7 +38,24 @@
     return YES;
 }
 
--(void)viewWillAppear:(BOOL)animated {
+//Notification 1
+- (void)registerNotification {
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(receive:) name:@"UngacyMessage" object:nil];
+
+}
+//Notification 2
+- (void)receive:(NSNotification *)sender {
+    NSLog(@"%@",sender.name);
+    NSLog(@"%@",[sender object]);
+    NSLog(@"%@",[sender userInfo]);
+    
+    
+}
+//Notification 3
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"UngacyMessage" object:@"1" userInfo:@{@"key":@"value"}];
+}
+- (void)viewWillAppear:(BOOL)animated {
     
 }
 
@@ -76,6 +93,10 @@
     NSString *subString = [kvcDemo valueForKeyPath:@"sub.string"];
     NSLog(@"%@",subString);
     
-    
+    [self registerNotification];
+}
+//Notification 4
+-(void)dealloc {
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:@"UngacyMessage" object:nil];
 }
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD1C7B4B1AB6B60600D28C38 /* CrashDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1C7B4A1AB6B60600D28C38 /* CrashDemoViewController.m */; };
 		BD32008C1AB66AA3004D75FA /* NSString+Revert.m in Sources */ = {isa = PBXBuildFile; fileRef = BD32008B1AB66AA3004D75FA /* NSString+Revert.m */; };
 		BD3200901AB66B71004D75FA /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD32008F1AB66B71004D75FA /* CategoryViewController.m */; };
 		BD3200931AB675E5004D75FA /* ModelKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3200921AB675E5004D75FA /* ModelKVC.m */; };
@@ -42,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD1C7B491AB6B60600D28C38 /* CrashDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CrashDemoViewController.h; path = ViewController/CrashDemoViewController.h; sourceTree = "<group>"; };
+		BD1C7B4A1AB6B60600D28C38 /* CrashDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CrashDemoViewController.m; path = ViewController/CrashDemoViewController.m; sourceTree = "<group>"; };
 		BD32008A1AB66AA3004D75FA /* NSString+Revert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Revert.h"; path = "category/NSString+Revert.h"; sourceTree = "<group>"; };
 		BD32008B1AB66AA3004D75FA /* NSString+Revert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Revert.m"; path = "category/NSString+Revert.m"; sourceTree = "<group>"; };
 		BD32008E1AB66B71004D75FA /* CategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CategoryViewController.h; path = ViewController/CategoryViewController.h; sourceTree = "<group>"; };
@@ -142,6 +145,8 @@
 				BDCA81251AB41FA7009DEDC4 /* ViewController.m */,
 				BD32008E1AB66B71004D75FA /* CategoryViewController.h */,
 				BD32008F1AB66B71004D75FA /* CategoryViewController.m */,
+				BD1C7B491AB6B60600D28C38 /* CrashDemoViewController.h */,
+				BD1C7B4A1AB6B60600D28C38 /* CrashDemoViewController.m */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -342,6 +347,7 @@
 				BD3200931AB675E5004D75FA /* ModelKVC.m in Sources */,
 				BDCA81101AB41AF6009DEDC4 /* ViewDemo.m in Sources */,
 				BDCA81201AB41F8A009DEDC4 /* ModelWeak.m in Sources */,
+				BD1C7B4B1AB6B60600D28C38 /* CrashDemoViewController.m in Sources */,
 				BDCA81271AB41FA7009DEDC4 /* ViewController.m in Sources */,
 				BDCF63171AAFD2800028E30D /* AppDelegate.m in Sources */,
 				BDCA81151AB41F66009DEDC4 /* Demo1ViewController.m in Sources */,
